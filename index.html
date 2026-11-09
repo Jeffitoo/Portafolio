@@ -201,8 +201,8 @@ article.sheet{background:var(--sheet);border:2px solid var(--line);border-radius
 .wip{display:inline-flex;align-items:center;gap:8px;justify-self:start;font-size:.72rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;border:1.5px solid rgba(255,255,255,.65);border-radius:999px;padding:3px 12px}
 .wip::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--lime)}
 .wip.on-panel{border-color:var(--accent);color:var(--accent)}
-.phone{width:min(100%,240px);margin-inline:auto;border:6px solid var(--ink);border-radius:30px;overflow:hidden;background:#000}
-.phone img{border-radius:0;display:block}
+.phone{width:min(100%,240px);margin-inline:auto;border:0;padding:9px;box-sizing:border-box;border-radius:36px;overflow:hidden;background:#000;box-shadow:0 0 0 2px #000}
+.phone img{border-radius:27px;display:block;width:100%;height:auto}
 .code{border:2px solid var(--line);border-radius:14px;overflow:hidden}
 .code img{border-radius:0}
 
